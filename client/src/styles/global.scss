@@ -1,0 +1,14 @@
+@import "./partials/media";
+@import "./partials/mixins";
+@import "./partials/variables";
+@import "./partials/typography";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $food-black;
+    background-color: $food-grey;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}

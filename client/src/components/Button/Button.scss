@@ -1,0 +1,32 @@
+@import "../../styles/global.scss";
+
+.btn {
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 18.75rem;
+    height: 5rem;
+
+
+    &--primary {
+        background-color: $food-orange;
+        color: $food-white;
+        font-weight: 400;
+    }
+
+    &--danger {
+        background-color: red;
+        color: white;
+    }
+
+    &--secondary {
+        background-color: $food-white;
+        color: $food-orange;
+        font-weight: 600;
+    }
+}
+
+.button__text {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
