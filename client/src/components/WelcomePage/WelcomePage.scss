@@ -1,0 +1,56 @@
+@import "../../styles/global.scss";
+
+.welcome {
+    padding-top: 5.625rem;
+    padding-bottom: 2.625rem;
+    margin: 0;
+    background-color: $food-orange;
+
+
+    &__img {
+        background-color: $food-white;
+        border-radius: 5rem;
+        width: 5.5rem;
+        height: 5.5rem;
+        margin-left: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text {
+        color: $food-white;
+        font-size: 5rem;
+        font-weight: 800;
+        width: 60%;
+        margin-left: 4rem;
+    }
+
+    &__pics {
+        position: relative;
+    }
+
+    &__block {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 42%;
+        z-index: 2;
+
+        background: linear-gradient(
+            to top,
+            rgba($food-orange, 1) 0%,
+            rgba($food-orange, 0.9) 30%,
+            rgba($food-orange, 0.6) 60%,
+            rgba($food-orange, 0) 100%
+        );
+
+    }
+}
+
+
+.btn {
+    margin-left: 20%;
+    margin-right: 20%;
+}
