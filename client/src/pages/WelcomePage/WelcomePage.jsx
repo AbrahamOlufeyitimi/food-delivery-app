@@ -1,5 +1,5 @@
 import "./WelcomePage.scss"
-import Button from "../Button/Button";
+import Button from "../../components/Button/Button";
 import Girl from "../../assets/images/Toy-Girl.svg";
 import Boy from "../../assets/images/Toy-Boy.svg";
 import Hat from "../../assets/logo/Chef-Logo.svg";
