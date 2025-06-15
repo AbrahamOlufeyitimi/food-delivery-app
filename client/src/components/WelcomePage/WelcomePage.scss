@@ -22,8 +22,26 @@
         color: $food-white;
         font-size: 5rem;
         font-weight: 800;
-        width: 60%;
+        width: 75%;
         margin-left: 4rem;
+    }
+
+    &__group{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    &__lady{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    &__man{
+        position: absolute;
+        top: 5.875rem;
+        left: 11.875rem;
     }
 
     &__pics {
@@ -45,12 +63,10 @@
             rgba($food-orange, 0.6) 60%,
             rgba($food-orange, 0) 100%
         );
-
     }
-}
 
-
-.btn {
-    margin-left: 20%;
-    margin-right: 20%;
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
 }

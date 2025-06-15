@@ -7,7 +7,6 @@ import Hat from "../../assets/logo/Chef-Logo.svg";
 
 const WelcomePage = () => {
     return (
-        <>
             <div className="welcome">
                 <div className="welcome__img">
                     <img className="welcome__logo" src={Hat}/>
@@ -18,17 +17,17 @@ const WelcomePage = () => {
                 </div>
 
                 <div className="welcome__pics">
-                    <img className="welcome__lady" src={Girl}/>
-                    <img className="welcome__man" src={Boy}/>
-                    <div className="welcome__block">
-
+                    <div className="welcome__group">
+                        <img className="welcome__man" src={Boy}/>
+                        <img className="welcome__lady" src={Girl}/>
                     </div>
+                    <div className="welcome__block"/>
                 </div>
 
-
+                <div className="welcome__button">
                 <Button className="btn" variant="secondary">Get started</Button>
+                </div>
             </div>
-        </>
     )
 }
 
