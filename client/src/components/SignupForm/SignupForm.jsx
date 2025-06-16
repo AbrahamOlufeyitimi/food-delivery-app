@@ -4,34 +4,36 @@ import Button from "../Button/Button.jsx";
 const SignupForm = () => {
     return (
         <form className="auth-form">
-            <label htmlFor="email">Email address</label>
+            <label className="auth-form__label" htmlFor="email">Email address</label>
             <input
+                className="auth-form__input"
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Email address"
                 required
             />
 
-            <label htmlFor="password">Create password</label>
+            <label className="auth-form__label" htmlFor="password">Create password</label>
             <input
+                className="auth-form__input"
                 type="password"
                 id="password"
                 name="password"
-                placeholder="Create password"
                 required
             />
 
-            <label htmlFor="confirm">Confirm password</label>
+            <label className="auth-form__label" htmlFor="confirm">Confirm password</label>
             <input
+                className="auth-form__input"
                 type="password"
                 id="confirm"
                 name="confirm"
-                placeholder="Confirm password"
                 required
             />
 
-            <Button type="submit">Sign up</Button>
+            <div className="auth-form__button">
+                <Button type="submit">Sign up</Button>
+            </div>
         </form>
     );
 };

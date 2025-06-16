@@ -3,9 +3,6 @@
 .auth-bg {
     background: linear-gradient(to bottom, $food-grey 3rem, transparent 0);
     min-height: 100vh;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
 }
 
 .auth-card {
@@ -26,8 +23,7 @@
     }
     
     &__logo {
-        width: 5rem;
-        // margin: 0 auto 1rem;
+        width: 10rem;
     }
 
     &__tabs {
@@ -56,30 +52,5 @@
     &__form {
         padding-top: 5rem;
         text-align: left;
-    }
-}
-
-.auth-form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-
-    label {
-        font-size: 0.9rem;
-        font-weight: 600;
-    }
-
-    input {
-        padding: 0.5rem;
-        border: .0625rem solid $food-black;
-        border-radius: 0.5rem;
-    }
-
-    &__forgot {
-        font-size: 0.85rem;
-        color: $food-orange;
-        text-decoration: none;
-        margin: 0.5rem 0;
-        display: inline-block;
     }
 }

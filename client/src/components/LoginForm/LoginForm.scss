@@ -1,0 +1,31 @@
+@import "../../styles/global.scss";
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    &__label{
+        color: $food-icon-gray;
+    }
+
+    &__input{
+        border: none;
+        background: transparent;
+        border-bottom: .0625rem solid $food-icon-gray;
+        padding: .125rem .3125rem;
+    }
+
+    &__forgot{
+        text-decoration: none;
+        color: $food-orange;
+        font-weight: 800;
+    }
+
+
+    &__button {
+        align-self: center;
+        padding-top: 10rem;
+
+    }
+}

@@ -6,15 +6,17 @@ const LoginForm = () => {
     return (
 
         <form className="login-form">
-            <label for="email">Email address</label><br/>
-            <input type="text" id="email" name="email" placeholder="Email address" required/><br/>
+            <label className="login-form__label" for="email">Email address</label><br/>
+            <input className="login-form__input" type="text" id="email" name="email" required/><br/>
 
-            <label for="pwd">Password</label><br/>
-            <input type="password" id="pwd" name="pwd" placeholder="password" required/><br/>
+            <label className="login-form__label" for="pwd">Password</label><br/>
+            <input className="login-form__input" type="password" id="pwd" name="pwd" required/><br/>
 
             <a href="#" className="login-form__forgot">Forgot passcode?</a><br/>
 
-            <Button type="submit">Login</Button>
+            <div className="login-form__button">
+                <Button type="submit">Login</Button>
+            </div>
 
         </form>
 
