@@ -6,10 +6,10 @@ const LoginForm = () => {
     return (
 
         <form className="login-form">
-            <label className="login-form__label" for="email">Email address</label><br/>
+            <label className="login-form__label" htmlFor="email">Email address</label><br/>
             <input className="login-form__input" type="text" id="email" name="email" required/><br/>
 
-            <label className="login-form__label" for="pwd">Password</label><br/>
+            <label className="login-form__label" htmlFor="pwd">Password</label><br/>
             <input className="login-form__input" type="password" id="pwd" name="pwd" required/><br/>
 
             <a href="#" className="login-form__forgot">Forgot passcode?</a><br/>
